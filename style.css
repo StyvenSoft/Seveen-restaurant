@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Great+Vibes|PT+Sans:400,700&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-main:    'PT Sans', sans-serif;
+    --font-second:  'Great Vibes', cursive;
+    --font-body:    'Cabin', sans-serif;
+    --main-color:   #252525;
+    --second-color: #c59d5f;
+    --body-color:   #515151;
+}
