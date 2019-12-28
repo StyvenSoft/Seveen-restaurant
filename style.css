@@ -13,6 +13,7 @@
     --main-color:   #252525;
     --second-color: #c59d5f;
     --body-color:   #515151;
+    --white-color: #fff;
 }
 html{
     font-family: var(--font-body);
@@ -57,7 +58,7 @@ p{
     justify-content: center;
 }
 .menu-toggle{
-    color: #fff;
+    color: var(--white-color);
     font-style: 2rem;
     position: absolute;
     top: 50%;
@@ -108,4 +109,41 @@ p{
 .open .nav::before{
     opacity: 1;
     transform: scale(1);
+}
+.nav-item{
+    border-bottom: 2px solid rgba(255,255,255, .3)
+}
+.nav-link{
+    display: block;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 2.5px;
+    margin-right: -2px;
+    transition: color .5s;
+}
+.nav-link:hover{
+    color: var(--second-color);
+}
+.hero{
+    width: 100%; height: 100vh;
+    background: url(./images/hero8.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5);
+}
+.sub-headline{
+    font-size: 8.5rem;
+    font-family: var(--font-second);
+    color: var(--second-color);
+    font-weight: 100;
+    line-height: .8;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 6px rgba(0,0,0,0.7);
+}
+.first-letter{
+    text-transform: uppercase;
+    font-size: 10.3rem;
 }
