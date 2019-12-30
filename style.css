@@ -14,7 +14,11 @@
     --second-color: #c59d5f;
     --body-color:   #515151;
     --white-color: #fff;
+    --dark-color: #121212;
 }
+::selection{ 
+    background-color: var(--second-color);
+ }
 html{
     font-family: var(--font-body);
     font-size: 12px;
@@ -283,4 +287,63 @@ p{
 .discover-menu .restaurant-description{
     padding-top: 3rem;
     margin-bottom: 0;
+}
+.perfect-blend{
+    background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.521)),
+     url(./images/blend.jpg) center no-repeat;
+    background-size: cover;
+}
+.footer{
+    padding: 7.9rem 0;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    text-align: center;
+    position: relative;
+}
+.back-to-top{
+    width: 7rem; height: 7rem;
+    background-color: var(--dark-color);
+    position: absolute;
+    top: -3rem; left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.back-to-top i{
+    display: block;
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 2rem;
+}
+.footer-content h4{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+.footer-content .star{
+    margin: 2.4rem 0;
+}
+.footer-about{
+    margin-bottom: 5.4rem;
+}
+.footer-about p{
+    line-height: 2;
+}
+.social-icons{
+    list-style: none;
+    margin-bottom: 5.4rem;
+    display: flex;
+    justify-content: center;
+}
+.social-icons i{
+    font-size: 2rem;
+    color: var(--white-color);
+    padding: 3rem 2rem;
+    opacity: .5;
+    transition: color .5s;
+}
+.social-icons i:hover,
+.social-icons i:focus{
+    color: var(--second-color);
 }
