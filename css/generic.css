@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Great+Vibes|PT+Sans:400,700&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-main:    'PT Sans', sans-serif;
+    --font-second:  'Great Vibes', cursive;
+    --font-body:    'Cabin', sans-serif;
+    --main-color:   #252525;
+    --second-color: #c59d5f;
+    --body-color:   #515151;
+    --white-color: #fff;
+    --dark-color: #121212;
+}
+::selection{ 
+    background-color: var(--second-color);
+ }
+html{
+    font-family: var(--font-body);
+    font-size: 12px;
+    color: var(--body-color);
+    scroll-behavior: smooth;
+}
+section{
+    padding: 3.9em 0;
+}
+img{
+    width: 100%;
+    min-width: 100%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+p{
+    font-style: 1.6rem;
+}
