@@ -30,6 +30,7 @@ body{
 }
 section{
     padding: 3.9em 0;
+    overflow: hidden;
 }
 img{
     width: 100%;
