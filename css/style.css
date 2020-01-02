@@ -24,7 +24,7 @@
 }
 .menu-toggle{
     color: var(--white-color);
-    font-style: 2rem;
+    font-size: 1.5rem;
     position: absolute;
     top: 50%;
     right: 2.5rem;
@@ -40,7 +40,7 @@
     display: flex;
     position: fixed;
     top: 0; left: 0;
-    width: 50%;
+    width: 75%;
     height: 100vh;
     background-color: var(--body-color);
     padding: 4.4rem;

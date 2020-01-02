@@ -1,8 +1,17 @@
+window.onload = () =>{
+    let container = document.querySelector('.container-load');
+    container.style.visibility = 'hidden';
+    container.style.opacity = 0;
+}
 const selectElement = function (element){
     return document.querySelector(element);
 };
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
+
+const closeMenu = () =>{
+    body.classList.remove('open');
+}
 
 menuToggler.addEventListener('click', function () {
     body.classList.toggle('open');
