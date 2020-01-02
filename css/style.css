@@ -107,6 +107,9 @@
     line-height: .5;
     letter-spacing: 2px;
     text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: fadeUp 0.5s forwards;
+    animation-delay: 2s;
 }
 .first-letter{
     text-transform: uppercase;
@@ -119,6 +122,8 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: .5rem;
+    animation: scale 0.5s forwards;
+    animation-delay: 1s;
 }
 .separator{
     display: flex;
@@ -131,6 +136,9 @@
     height: .25rem;
     background-color: var(--white-color);
     position: relative;
+    opacity: 0;
+    animation: grow 2s forwards;
+    animation-delay: 3s;
 }
 .line-left::before,
 .line-right::before{
@@ -152,6 +160,14 @@
     font-size: 1.2rem;
     color: var(--second-color);
     margin: 0 1.6rem;
+    opacity: 0;
+    animation: spin 2s forwards;
+    animation-delay: 3s;
+}
+.single-animation{
+    opacity: 0;
+    animation: fadeDown 0.5s forwards;
+    animation-delay: 2s;
 }
 .headline-description h5{
     color: var(--white-color);
@@ -274,6 +290,7 @@
     color: var(--white-color);
     font-size: 2rem;
     padding: 2rem;
+    animation: up 2s infinite;
 }
 .footer-content h4{
     font-size: 1.9rem;

@@ -1,11 +1,11 @@
-## Proyect Seveen Restaurant
+# Proyect Seveen Restaurant
 
-# Dummy Test Project
+## Dummy Test Project
 
 
 This is a test project of a website for a restaurant to strengthen the fundamental bases of web development.
 
-# TECH
+## TECH
 
 > HTML
 > CSS
